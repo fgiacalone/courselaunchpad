@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#scorm-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+iframe[name="scorm-content-iframe"] {
+  flex: 1;
+  border: none;
+}
